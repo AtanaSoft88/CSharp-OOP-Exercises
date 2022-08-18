@@ -11,7 +11,7 @@ namespace CustomRandomList
         {            
             int index = rnd.Next(0, this.Count);
             string element = this[index];
-            RemoveAt(index);
+            this.RemoveAt(index);
             
             return element;
 
