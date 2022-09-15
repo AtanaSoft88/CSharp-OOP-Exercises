@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<feed xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <doc>
+    <title>Шопска Салата (Shopska Salad)</title>
+    <abstract> It is consisted of Tomatos, Cheese,Cucumbers,Oil,Onion,Parsley. Suitable to be consumed with Bulgarian Rakia/Vodka</abstract>
+  </doc>
+  <doc>
+    <title>Пица Тропикана (Pizza Tropicana)</title>
+    <abstract> It is consisted of Tomatos, Cheese,Beef steak,mushrooms,Edam,Oregano,Pineapple. Best to be consumed with Stela Artois - Beer</abstract>
+  </doc>
+</feed>

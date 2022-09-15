@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<library name="Developer's Library" BooksCount="4">
+  <book test="true">
+    <title>Professional C# 4.0 and .NET 4</title>
+    <author>Christian Nagel</author>
+    <isbn>978-0-470-50225-9</isbn>
+    <clor>Blue</clor>
+    <pagesCount>543</pagesCount>
+  </book>
+  <book AttributeTest="false">
+    <title>Teach Yourself XML in 10 Minutes</title>
+    <author>Andrew H. Watt</author>
+    <isbn>978-0-672-32471-0</isbn>
+    <clor>Blue</clor>
+    <pagesCount>415</pagesCount>
+  </book>
+  <book AttributeTest="false">
+    <title>MusicPlay</title>
+    <author>Pesho</author>
+    <isbn>9999999999999999999</isbn>
+    <clor>Blue</clor>
+    <pagesCount>544</pagesCount>
+  </book>
+  <book AttributeTest="false">
+    <title>SoftUniBook</title>
+    <author>djx700</author>
+    <isbn>9999999999999999999</isbn>
+    <clor>Blue</clor>
+    <pagesCount>93</pagesCount>
+  </book>
+</library>

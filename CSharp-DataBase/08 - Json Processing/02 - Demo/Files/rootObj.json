@@ -1,0 +1,14 @@
+{
+  "name": "John",
+  "age": 22,
+  "hobby": {
+    "reading": true,
+    "gaming": false,
+    "sport": "football"
+  },
+  "Class": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ]
+}
