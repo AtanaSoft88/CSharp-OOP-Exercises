@@ -30,7 +30,7 @@ namespace Abstraction3
                     Console.WriteLine(currentPhone.ChargeBattery());
                 }
                 
-                Console.WriteLine(new string('*',60));
+                Console.WriteLine(new string('*',50));
             }
 
         }
