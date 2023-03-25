@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Page</title>
+    <link rel="stylesheet" href="/css/style.css">  
+    <link rel="icon" type="image/x-icon" href="/wwwroot/favok.ico">
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            <ul>                
+                <li><a href="/users/Logout" class="link-light">Logout</a></li>
+                <li><a href="/users/Login" class="link-light">Login</a></li>
+                <li><a href="/users/Register" class="link-light">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div id="page-container">
+            <div id="content-wrap">
+                @RenderBody()
+            </div>
+            <footer id="footer">
+                <div class="container-fluid text-center">
+                    <small class="footer-background text-white">
+                        CopyRight &copy; My First Registration Form 2022. All rights reserved.
+                    </small>
+                </div>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>

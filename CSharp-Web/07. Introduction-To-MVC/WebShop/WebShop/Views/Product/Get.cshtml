@@ -1,0 +1,32 @@
+﻿@using static WebShop.Controllers.ProductController
+@model SomeClass
+@{
+	<p>@ViewData["Title"]</p>
+}
+<form asp-controller="Product" asp-action="Get" method="post">
+	<div>
+		<input name="year" class="input-group-sm mt-2" /> <br />
+	</div>
+	<span asp-validation-for="Year" class="small text-danger"></span>
+	<div>
+		<input name="month" class="input-group-sm mt-2" /> <br />
+	</div>
+	<span asp-validation-for="Month" class="small text-danger"></span>
+	<div>
+		<input name="day" class="input-group-sm mt-2 mb-2" /> 
+	</div>
+	<span asp-validation-for="Day" class="small text-danger"></span> 
+	<div>
+		<input type="submit" value="send" />
+	</div>
+
+</form>
+
+<p>Chosen Year :@Model.Year</p>
+<p>Chosen Month: @Model.Month</p>
+<p>Chosen Day: @Model.Day</p>
+
+@*Here we make validation using this partial view and with span we make the appropriate text shown after error*@
+@section Scripts{
+	<partial name="_ValidationScriptsPartial" />
+}

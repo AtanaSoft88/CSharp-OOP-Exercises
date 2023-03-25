@@ -1,0 +1,88 @@
+[
+
+  {
+    "Id": "c1096381-98d9-413c-975b-dba520bf2e39",
+    "Name": "Watermelon",
+    "Price": 3.50,
+    "Quantity": 150
+  },
+  {
+    "Id": "e1808514-baed-41fa-aeed-8cf7cc5326d8",
+    "Name": "Spaghetti",
+    "Price": 1.25,
+    "Quantity": 60
+  },
+  {
+    "Id": "ce7254d2-7915-4afa-b125-b399854534e9",
+    "Name": "Tomatoes",
+    "Price": 2.00,
+    "Quantity": 35
+  },
+  {
+    "Id": "479844d8-4b1e-4f6c-9421-fc7e050f9bde",
+    "Name": "Fish",
+    "Price": 7.60,
+    "Quantity": 25
+  },
+  {
+    "Id": "77be151c-45d9-480c-9890-a041832b9510",
+    "Name": "Pizza-Frozen",
+    "Price": 12.60,
+    "Quantity": 45
+  },
+  {
+    "Id": "1451ffd5-a106-4501-a1e6-afb6d86bbf56",
+    "Name": "Eggs",
+    "Price": 4.50,
+    "Quantity": 20
+  },
+  {
+    "Id": "bcb8b72a-39e6-4bb9-af60-01468d52506a",
+    "Name": "Chokolate-Bars",
+    "Price": 2.35,
+    "Quantity": 250
+  },
+  {
+    "Id": "51809886-bbf4-471b-95f1-171b0d825ebf",
+    "Name": "Oranges",
+    "Price": 1.75,
+    "Quantity": 35
+  },
+  {
+    "Id": "3b27d6ca-09fc-4eb8-ba18-fe0b02324e98",
+    "Name": "Banana",
+    "Price": 3.20,
+    "Quantity": 25
+  },
+  {
+    "Id": "0201e105-bb13-438f-a519-bdefb8a5b1f3",
+    "Name": "Smoked-Cheese",
+    "Price": 16.50,
+    "Quantity": 30
+  },
+  {
+    "Id": "db71db71-4049-47bc-b628-c4fef5f0e67d",
+    "Name": "Beef-Meat",
+    "Price": 14.45,
+    "Quantity": 50
+  },
+  {
+    "Id": "1cdd6d51-f2f2-4a31-b4fd-5f141d6eb537",
+    "Name": "Ice-Cream",
+    "Price": 3.65,
+    "Quantity": 22
+  },
+  {
+    "Id": "ee2d318d-7d16-40d9-8a04-ae8d12e25828",
+    "Name": "Eggplant",
+    "Price": 1.34,
+    "Quantity": 15
+  },
+  {
+    "Id": "fe4e3e55-65e2-4192-898b-c858986266a3",
+    "Name": "Table-Water",
+    "Price": 1.18,
+    "Quantity": 350
+  }
+
+]

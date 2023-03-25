@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "03.Http-Request-DataBase-rec": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63952;http://localhost:63972"
+    }
+  }
+}

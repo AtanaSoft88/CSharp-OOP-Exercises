@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "01.HTTP-Reading info fm Internet": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63950;http://localhost:63963"
+    }
+  }
+}

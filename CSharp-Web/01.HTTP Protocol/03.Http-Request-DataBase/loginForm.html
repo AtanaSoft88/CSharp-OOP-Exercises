@@ -1,0 +1,23 @@
+﻿<h1 id="title">This is my Login Form</h1>
+<h3>Please enter your Username and Password</h3>
+<form>
+    <input type="text" placeholder="Username" id="usr" /><br />
+    <input type="password" placeholder="Password" id="pass" /><br />
+    <input type="submit" value="Login" onclick="javascript:validate()" />
+</form>
+
+<script type="text/javascript">
+    function validate() {
+        if (document.getElementById("usr").value == "123"
+            && document.getElementById("pass").value == "123") {
+            alert("Access Granted!");
+            location.href = "./welcome.html"
+
+        }
+        else {
+            alert("Validation failed");
+            location.href = "fail.html";
+        }
+    }
+
+</script>

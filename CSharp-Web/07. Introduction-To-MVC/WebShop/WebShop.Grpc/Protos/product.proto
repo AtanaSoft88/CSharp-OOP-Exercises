@@ -1,0 +1,31 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto"; // importing a package
+
+option csharp_namespace = "WebShop.Grpc";
+
+package product; // define a package
+
+// The Product service definition.
+service Product {
+  // Sends a greeting
+  rpc GetAllProducts (google.protobuf.Empty) returns (ProductList);
+}
+
+message PrductList {
+	repeated ProductItem items = 1;
+}
+
+message PrductItem {
+	string id = 1;
+	string name = 2;
+	double price = 3;
+	int32 quantity = 4;
+}
+
+// This is all to create Client + Server
+
+//At WebShop.Grps right click and "Edit project file"  and add under "ItemGroup" the following row which describes the new package = "product" -> 
+//"<Protobuf Include="Protos\product.proto" GrpcServices="Server" />".
+//The above mentioned row will be just below the available row there -> "<Protobuf Include="Protos\greet.proto" GrpcServices="Server" />"
+
+//Грешка при изпълнение - не се компилира не намира ProductItem и ProductList "is not defined"

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "02.Being-a-Client-Demo": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63953;http://localhost:63960"
+    }
+  }
+}

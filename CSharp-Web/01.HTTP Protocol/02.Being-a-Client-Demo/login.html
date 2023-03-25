@@ -1,0 +1,22 @@
+<form>
+    <input type="text" placeholder="Username" id="text1" /><br />
+    <input type="password" placeholder="Password" id="text2" /><br />
+    <input type="button" value="Login"  onclick="javascript:validate()" />
+</form>
+<script type="text/javascript">
+function validate()
+{
+    if(   document.getElementById("text1").value == "nasko"
+       && document.getElementById("text2").value == "8807" )
+    {
+        alert( "validation succeeded" );        
+        window.location.href = "https://google.com"; // window.location.href -> gives to load specific web page
+        
+    }
+    else
+    {
+        alert( "validation failed" );
+        location.href="fail.html";
+    }
+}
+</script>

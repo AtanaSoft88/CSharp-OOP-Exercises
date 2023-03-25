@@ -1,0 +1,26 @@
+﻿@model IEnumerable<ProductModel>  // We add using in Views/Shared/_ViewImports.cshtml , as global using for Views, so we can use the model easy
+
+<h1 class="text-success text-decoration-underline text-center">@ViewData["Title"]</h1>  @*It's been set in the appropriate Action's Controller ,responsible for this View file*@
+
+<table class="table table-striped table-hover table-bordered border-success">
+	<thead>		                                                    @* thead => The main row containing description of each column*@				 
+		<tr class="bg-success shadow-lg text-warning">              @* tr => One row in table*@
+			<td>Name</td>                                           @* td => One cell of our row in table*@
+			<td>Price</td>
+			<td>Quantity</td>
+			<td>Buy</td>			
+		</tr>
+	</thead>
+	<tbody class="table-hover link-success">
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.Name</td>
+				<td>@item.Price</td>
+				<td>@item.Quantity</td>
+				<td><button class="btn btn-outline-warning btn-success border-4 font-monospace toast-body ">Buy</button></td>
+			</tr>
+			
+		}
+	</tbody>
+</table>

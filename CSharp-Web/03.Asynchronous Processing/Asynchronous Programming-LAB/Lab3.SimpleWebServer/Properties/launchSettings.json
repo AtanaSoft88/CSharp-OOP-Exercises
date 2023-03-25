@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Lab3.SimpleWebServer": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63988;http://localhost:63989"
+    }
+  }
+}

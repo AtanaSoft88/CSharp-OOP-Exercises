@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "SUS.MvcFramework": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63974;http://localhost:63975"
+    }
+  }
+}
